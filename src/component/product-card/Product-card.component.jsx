@@ -4,11 +4,11 @@ import Button from "../Button/Button";
 import "./Product-card.style.scss";
 
 const Productcard = (props) => {
+  console.log('props.product',props.product)
   const { name, price, imageUrl } = props.product;
   const { addItemToCart } = useContext(CartContext);
 
   const addProductToCart = () => {
-    // console.log('props.product',props.product)
     addItemToCart(props.product);
   };
   return (

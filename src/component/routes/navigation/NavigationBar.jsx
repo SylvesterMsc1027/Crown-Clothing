@@ -20,7 +20,7 @@ export default function NavigationBar() {
           <CrownSvg className="logo" />
         </Link>
         <div className="nav-links-container">
-          <Link className="nav-link" to="/shop">
+          <Link className="nav-link" to="/Shop">
             Shop
           </Link>
           <Link className="nav-link" to="/Contact">

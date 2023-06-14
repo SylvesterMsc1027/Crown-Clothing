@@ -1,5 +1,5 @@
 import React from "react";
-import Category from "../../directory/directory";
+import Directory from "../../directory/Directory";
 import { Outlet } from "react-router-dom";
 
 
@@ -33,7 +33,7 @@ function Home() {
   ];
   return (
     <div>
-      <Category items={items}/>
+      <Directory items={items}/>
       <Outlet/>
     </div>
   ); 
